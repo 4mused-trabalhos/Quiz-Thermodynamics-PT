@@ -84,5 +84,46 @@ function Display(QuestionsArray) {
     
 }
 
+function Score() {
+
+    for(l = 0; l < HTML_R.length; l++) {
+
+        if(HTML_R[l].checked) {
+
+            HTML_Button.disabled = true;
+
+            if(HTML_R[l].value == "R") {
+
+                var Class = HTML_A[l].className;
+                HTML_A[l].className += " correto"
+
+                ScoreP += 100;
+
+            }
+            else {
+
+                var Class = HTML_R[l].className;
+                HTML_A[l].className += " errado"
+
+            }
+
+            setTimeout(() => { 
+                
+                HTML_A[l].className = Class;
+                HTML_Button.disabled = false;
+                
+                HTML_Score.textContent = "Pontuação: " + ScoreP;
+                Display(Questions);
+
+             }, 2500);
+
+            
+
+        }
+
+    }
+
+}
+
 
 }
