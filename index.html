@@ -11,16 +11,44 @@
 
         <link rel="stylesheet" href="assets\fonts\inter\inter.css">
         <link rel="stylesheet" href="css\style.css">
-
     </head>
 
-    <body onload="">
+    <body onload="main();">
 
-        
+        <div class="game" style="margin: 5%;">
+
+            <p class="S"></p>
+
+            <div style="margin-bottom: 70px; text-align: center;">
+                <h1 class="Q"></h2>
+            </div>
+
+            <label class="container"><span class="A1"></span>
+                <input type="radio" name="resposta" class="R1">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container"><span class="A2"></span>
+                <input type="radio" name="resposta" class="R2">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container"><span class="A3"></span>
+                <input type="radio" name="resposta" class="R3">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container"><span class="A4"></span>
+                <input type="radio" name="resposta" class="R4">
+                <span class="checkmark"></span>
+            </label>
+
+            <br><br><button class="button" onclick="Score();">Responder</button>
+
+        </div>
         
     </body>
 
     <script src="js/quiz.js"></script>
-    <script src="js/ui.js"></script>
 
 </html>
