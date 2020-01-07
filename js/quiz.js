@@ -10,6 +10,20 @@ var ScoreP = 0;
 
 class Question {
 
+    constructor(Q, AT, AW1, AW2, AW3) {
+
+        //Question
+        this.question = Q;
+
+        //Answers
+        this.answerT = AT;
+        this.answerW1 = AW1;
+        this.answerW2 = AW2;
+        this.answerW3 = AW3;
+
+    }
+
+}
     
 
 }
