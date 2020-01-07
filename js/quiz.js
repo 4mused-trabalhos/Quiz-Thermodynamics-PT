@@ -57,6 +57,32 @@ function Random(items) {
     
 }
 
+function Display(QuestionsArray) {
     
+    Question = QuestionsArray[questionNum];
+    Quest = Question.question;
+
+    Answers = [Question.answerT, Question.answerW1, Question.answerW2, Question.answerW3];
+    Answers = Random(Answers);
+
+    HTML_Question.textContent = Quest;
+    
+    for(u = 0; u < HTML_A.length; u++) {
+
+        HTML_A[u].textContent = Answers[u];
+
+        if(HTML_A[u].textContent == Question.answerT) {
+            HTML_R[u].value = "R";
+        }
+        else {
+            HTML_R[u].value = "W";
+        }
+
+    }
+
+    questionNum ++;
+    
+}
+
 
 }
