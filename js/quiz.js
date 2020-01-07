@@ -125,5 +125,11 @@ function Score() {
 
 }
 
+function main() {
+
+    HTML_Score.textContent = "Pontuação: " + ScoreP;
+
+    Questions = Random(Questions);
+    Display(Questions);
 
 }
