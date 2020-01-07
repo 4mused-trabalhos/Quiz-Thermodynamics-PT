@@ -38,6 +38,25 @@ var Questions = [
     new Question("Que tipo de refrigeração não existe", "Refrigeração elétrica", "Refrigeração a nitrogénio", "Rifregeração a água", "Rifrageração a ar")
 
 ];
+
+function Random(items) {
+
+    for(i = 0; i < items.length; i++) {
+        
+        var item = items[i];
+        
+        var pos = Math.floor(Math.random()*items.length);
+        var item1 = items[pos];
+
+        items[pos] = item;
+        items[i] = item1;
+    
+    }
+
+    return items;
+    
+}
+
     
 
 }
