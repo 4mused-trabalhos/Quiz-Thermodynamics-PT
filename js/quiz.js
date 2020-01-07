@@ -24,6 +24,20 @@ class Question {
     }
 
 }
+
+var Questions = [
+
+    new Question("Em que ano e por quem foi construida a primeira máquina frigorifica?", "1856 por James Harrison", "1856 por Domelre", "1913 por James Harrison", "1913 por Domelre"),
+    new Question("Como funciona a máquina frigorifica?", "Passagem de calor de uma fonte fria para uma fonte quente", "Passagem de calor de uma fonte quente para uma fria", "Meio tendo entre as duas fontes", "Magic"),
+    new Question("Quantas leis da termodinâmica existem?", "4", "5", "3", "2"),
+    new Question("No que consiste a lei zero da termodinâmica?", "No tratamento das condições para a obtenção do equilibrio térmico", "Na transferência do calor do corpo mais quente para o mais frio, de forma espontânea", "Na tentativa de estabeleçer um ponto de referencia que determine a entropia", "No relacionamento do principio de conservação de energia"),
+    new Question("No que consiste a primeira lei da termodinâmica?", "No relacionamento do principio de conservação de energia", "Na tentativa de estabeleçer um ponto de referencia que determine a entropia", "No tratamento das condições para a obtenção do equilibrio térmico", "Na transferência do calor do corpo mais quente para o mais frio, de forma espontânea"),
+    new Question("No que consiste a segunda lei da termodinâmica?", "Na transferência do calor do corpo mais quente para o mais frio, de forma espontânea", "No tratamento das condições para a obtenção do equilibrio térmico", "Na tentativa de estabeleçer um ponto de referencia que determine a entropia", "No relacionamento do principio de conservação de energia"),
+    new Question("No que consiste a terceira lei da termodinâmica?", "Na tentativa de estabeleçer um ponto de referencia que determine a entropia", "No relacionamento do principio de conservação de energia", "Na transferência do calor do corpo mais quente para o mais frio, de forma espontânea", "No tratamento das condições para a obtenção do equilibrio térmico"),
+    new Question("Qual o objetivo do cooler do processador?", "Arrefecer o processador", "Nada", "Enfeite", "Ocupar espaço"),
+    new Question("Que tipo de refrigeração não existe", "Refrigeração elétrica", "Refrigeração a nitrogénio", "Rifregeração a água", "Rifrageração a ar")
+
+];
     
 
 }
